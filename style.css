@@ -12,3 +12,7 @@
 .sidebar > .background {
   height: 100%;
 }
+
+.sidebar-content {
+  display: flex;
+}
