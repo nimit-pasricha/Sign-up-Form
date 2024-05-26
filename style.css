@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
-.background {
+.sidebar {
   height: 100vh;
+}
+
+.sidebar > .background {
+  height: 100%;
 }
