@@ -49,6 +49,7 @@
 }
 
 .credit {
+  padding: 8px;
   position: absolute;
   bottom: 0px;
 }
