@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Norse Bold";
+  src: url(fonts/Norse-Bold.otf);
+}
+
 .sidebar {
   position: relative;
   height: 100vh;
@@ -19,12 +24,17 @@
   align-items: center;
   position: absolute;
   top: 170px;
-  height: 8.5rem;
+  height: 8rem;
   width: 100%;
   color: white;
-  font-size: clamp(3rem, 6vw, 4.5rem);
+  font-size: clamp(2rem, 10vw, 4.5rem);
+  font-family: "Norse Bold", sans-serif;
+}
+
+.sidebar-content > div {
+  margin-top: 14px;
 }
 
 .sidebar-content > img {
-  height: 1.5em;
+  height: clamp(4.5rem, 10vw, 6.5rem);
 }
