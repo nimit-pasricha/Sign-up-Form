@@ -8,10 +8,8 @@
 .sidebar {
   position: relative;
   height: 100vh;
-}
-
-.sidebar > img {
-  height: 100%;
+  width: 33%;
+  background-image: url(images/background.jpg);
 }
 
 .sidebar-content {
@@ -20,11 +18,11 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 32px;
-  height: 152px;
-  width: 482.625px;
+  top: 170px;
+  height: 8.5rem;
+  width: 100%;
   color: white;
-  font-size: 5rem;
+  font-size: clamp(3rem, 6vw, 4.5rem);
 }
 
 .sidebar-content > img {
