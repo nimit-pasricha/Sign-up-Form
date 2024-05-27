@@ -11,4 +11,5 @@ This is my first somewhat responsive webpage. It doesn't always look perfect but
   <li>The page handles different browsers fonts pretty well. I have learned about and started using rem (and em) almost exclusively for my page's font-size
   </li>
   <li>I have also used rem and em for some of my non-font measurements which has helped resize some elements (like the translucent box around the ODIN title) when font-size is changed to make it look equally as pretty for different font sizes.</li>
+  <li>Checking if the two password fields match would require Javascript. I have not yet learned to validate forms using Javascript and <em>may</em> come back to this project to implement it later. For now, it just independently validates both password fields</li>
 <ul>
