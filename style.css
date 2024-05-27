@@ -58,7 +58,8 @@ body {
 
 #credit,
 #credit > a {
-  color: rgb(229, 231, 235, 0.7);
+  color: rgb(229, 231, 235, 0.8);
+  font-size: 0.85rem;
 }
 
 #credit {
