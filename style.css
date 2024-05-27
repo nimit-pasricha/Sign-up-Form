@@ -140,7 +140,18 @@ button[type="submit"] {
   color: whitesmoke;
   font-weight: 600;
   font-size: 1.05rem;
-  padding: 16px 48px;
+  padding: 16px 56px;
   box-shadow: 3px 3px 6px rgb(89, 109, 72, 0.3);
   border-radius: 6px;
+}
+
+#log-in-prompt {
+  font-weight: 550;
+  margin-top: 32px;
+}
+
+#log-in-prompt > a {
+  text-decoration: none;
+  font-weight: 750;
+  color: #596d48;
 }
