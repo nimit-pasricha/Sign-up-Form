@@ -166,3 +166,13 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+#password:invalid + div::after,
+#password-confirmation:invalid + div::after {
+  content: "Password must contain at least 8 characters including a-z, A-Z and 0-9";
+  display: inline-block;
+  width: 36ch;
+  font-size: 0.65rem;
+  margin-top: 2px;
+  color: red;
+}

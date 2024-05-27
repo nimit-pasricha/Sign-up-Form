@@ -56,14 +56,27 @@
           <fieldset id="password-row">
             <div>
               <label for="password" name="user_password">PASSWORD</label>
-              <input type="password" id="password" />
+              <input
+                type="password"
+                id="password"
+                minlength="8"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                required
+              />
+              <div></div>
             </div>
             <div>
               <label for="password-confirmation" name="confirmed-password"
                 >CONFIRM PASSWORD</label
               >
               <!-- TODO: ADD A <SPAN> TO DISPLAY INVALID PASSWORD WARNING-->
-              <input type="password" id="password-confirmation" />
+              <input
+                type="password"
+                id="password-confirmation"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                required
+              />
+              <div></div>
             </div>
           </fieldset>
         </div>
