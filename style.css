@@ -35,7 +35,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 20vh;
+  top: 24vh;
   width: 100%;
   color: white;
   font-size: 5rem;
@@ -71,7 +71,6 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   background-color: whitesmoke;
-  height: 35%ow;
   font-size: max(1.25vw, 1.15rem);
-  padding: 15vh 3vw 8vh 3vw;
+  padding: 16vh 8vw 4vh 3vw;
 }
