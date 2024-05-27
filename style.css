@@ -92,6 +92,10 @@ fieldset {
   margin-bottom: 32px;
 }
 
+#password-row {
+  margin-bottom: 0;
+}
+
 label {
   font-weight: 500;
   color: darkslategray;
@@ -121,16 +125,22 @@ input:invalid {
   border: solid red;
 }
 
+#white-background {
+  padding-bottom: 36px;
+}
+
 #gray-background {
   background-color: whitesmoke;
+  box-shadow: inset 0 8px 8px -6px rgba(0, 0, 0, 0.2);
+  padding: 32px 3vw;
 }
 
 button[type="submit"] {
   background-color: #596d48;
   color: whitesmoke;
   font-weight: 600;
+  font-size: 1.05rem;
   padding: 16px 48px;
   box-shadow: 3px 3px 6px rgb(89, 109, 72, 0.3);
   border-radius: 6px;
-  margin: 32px 3vw;
 }
