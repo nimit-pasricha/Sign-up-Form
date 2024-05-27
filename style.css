@@ -120,3 +120,7 @@ input:focus {
 input:invalid {
   border: solid red;
 }
+
+#gray-background {
+  background-color: whitesmoke;
+}
